@@ -20,3 +20,17 @@ After that, I started learning basic Java syntax, including:
 I also wrote several small programs to practice input, calculations, and simple conditional logic.
 
 Tomorrow I plan to continue with logical operators and loops.
+
+## Day 2 — Java Basics
+
+Today I continued learning Java syntax, focusing on logical conditions and loops.
+
+I learned how to use logical operators (`&&`, `||`, `!`) to combine multiple conditions in `if` statements.
+
+I also understood an important difference from Python: in Java, strings should be compared using `.equals()` instead of `==`.
+
+In addition, I learned how to use loops (`while` and `for`) to repeat code execution.
+
+I implemented a simple number guessing game using `while` and `if`, which helped me better understand how to control program flow.
+
+Overall, today was about making programs more interactive and dynamic.

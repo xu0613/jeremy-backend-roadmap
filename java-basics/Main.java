@@ -38,7 +38,7 @@ public class Main {
 //        System.out.println("a % b = " + (a % b));
 
 
-        Scanner input = new Scanner(System.in);
+//        Scanner input = new Scanner(System.in);
 
 //        System.out.print("Enter your age: ");
 //        int age = input.nextInt();
@@ -67,24 +67,53 @@ public class Main {
 //        }
 
 
-        System.out.print("Enter your name: ");
-        String name = input.nextLine();
+//        System.out.print("Enter your name: ");
+//        String name = input.nextLine();
+//
+//        System.out.print("Enter your score: ");
+//        int score = input.nextInt();
+//
+//        if (score >= 90) {
+//            System.out.println(name + " passed the exam, you got A");
+//            System.out.println("Excellent Work");
+//        } else if (score >= 80) {
+//            System.out.println(name + " passed the exam, you got B");
+//        } else if (score >= 70) {
+//            System.out.println(name + " passed the exam, you got C");
+//        } else if (score >= 60) {
+//            System.out.println(name + " passed the exam, you got D");
+//        } else {
+//            System.out.println(name + " failed the exam");
+//        }
 
-        System.out.print("Enter your score: ");
-        int score = input.nextInt();
 
-        if (score >= 90) {
-            System.out.println(name + " passed the exam, you got A");
-            System.out.println("Excellent Work");
-        } else if (score >= 80) {
-            System.out.println(name + " passed the exam, you got B");
-        } else if (score >= 70) {
-            System.out.println(name + " passed the exam, you got C");
-        } else if (score >= 60) {
-            System.out.println(name + " passed the exam, you got D");
-        } else {
-            System.out.println(name + " failed the exam");
+//        int i = 0;
+//
+//        while (i < 5) {
+//            System.out.println(i);
+//            i++;
+//        }
+
+//        for (int i = 0; i < 5; i++) {
+//            System.out.println(i);
+//        }
+
+        int target = 50;
+        Scanner input =  new Scanner(System.in);
+        System.out.print("Guess a number: ");
+        int guess = input.nextInt();
+        while (guess != target) {
+            if (guess > target) {
+                System.out.println("Too big");
+                System.out.print("Try again: ");
+            } else if (guess < target) {
+                System.out.println("Too small");
+                System.out.print("Try again: ");
+            }
+            guess = input.nextInt();
         }
+
+        System.out.println("Correct!");
 
     }
 }
