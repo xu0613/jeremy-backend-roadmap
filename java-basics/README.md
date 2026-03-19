@@ -34,3 +34,21 @@ In addition, I learned how to use loops (`while` and `for`) to repeat code execu
 I implemented a simple number guessing game using `while` and `if`, which helped me better understand how to control program flow.
 
 Overall, today was about making programs more interactive and dynamic.
+
+## Day 3 - Java Learning
+
+Today I continued learning Java and focused on object-oriented programming.
+
+What I learned:
+- Classes and objects
+- Attributes and methods
+- Using `this`
+- Creating simple classes such as `Student`, `Book`, and `Dog`
+
+What I practiced:
+- Writing class definitions
+- Creating objects in `main`
+- Calling methods like `showInfo()`, `read()`, and `bark()`
+- Passing values into methods such as `setInfo()`
+
+I also learned that method parameters are used to receive values from outside the class, which helps update the attributes of an object more flexibly.
