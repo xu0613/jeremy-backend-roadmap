@@ -98,22 +98,39 @@ public class Main {
 //            System.out.println(i);
 //        }
 
-        int target = 50;
-        Scanner input =  new Scanner(System.in);
-        System.out.print("Guess a number: ");
-        int guess = input.nextInt();
-        while (guess != target) {
-            if (guess > target) {
-                System.out.println("Too big");
-                System.out.print("Try again: ");
-            } else if (guess < target) {
-                System.out.println("Too small");
-                System.out.print("Try again: ");
-            }
-            guess = input.nextInt();
-        }
+//        int target = 50;
+//        Scanner input =  new Scanner(System.in);
+//        System.out.print("Guess a number: ");
+//        int guess = input.nextInt();
+//        while (guess != target) {
+//            if (guess > target) {
+//                System.out.println("Too big");
+//                System.out.print("Try again: ");
+//            } else if (guess < target) {
+//                System.out.println("Too small");
+//                System.out.print("Try again: ");
+//            }
+//            guess = input.nextInt();
+//        }
+//
+//        System.out.println("Correct!");
 
-        System.out.println("Correct!");
+//        Student s1 = new Student();
+//
+//        s1.setInfo("Jeremy", 18, "ICS");
+//        s1.introduce();
+//        s1.study();
 
+//        Book b1 = new Book();
+//
+//        b1.setInfo("Harry Potter", "J.K. Rowling", 59.9);
+//        b1.showInfo();
+//        b1.read();
+
+        Dog d1 = new Dog();
+
+        d1.setInfo("Coco", 3);
+        d1.showInfo();
+        d1.bark();
     }
 }
