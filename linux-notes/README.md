@@ -36,3 +36,15 @@ I learned the difference between absolute paths and relative paths, and practice
 I also learned how command options work, such as `ls -l`, `ls -a`, and `ls -la`, and used `clear` to clean up the terminal screen.
 
 Through these exercises, I developed a better understanding of how to navigate the file system more efficiently.
+
+### Linux Wildcards and Command Options
+
+Today I continued learning Linux basics and focused on command options and wildcards.
+
+I learned how options such as `-l`, `-a`, and `-r` change the behavior of commands like `ls`, `cp`, and `rm`.
+
+I also practiced using wildcards:
+- `*` to match any number of characters
+- `?` to match exactly one character
+
+Through these exercises, I became more familiar with how to work with multiple files efficiently in the terminal.
