@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package day1To3;
 
 public class Main {
     public static void main(String[] args) {
@@ -115,13 +115,13 @@ public class Main {
 //
 //        System.out.println("Correct!");
 
-//        Student s1 = new Student();
+//        day1To3.Student s1 = new day1To3.Student();
 //
 //        s1.setInfo("Jeremy", 18, "ICS");
 //        s1.introduce();
 //        s1.study();
 
-//        Book b1 = new Book();
+//        day1To3.Book b1 = new day1To3.Book();
 //
 //        b1.setInfo("Harry Potter", "J.K. Rowling", 59.9);
 //        b1.showInfo();

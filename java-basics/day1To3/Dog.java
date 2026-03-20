@@ -1,3 +1,5 @@
+package day1To3;
+
 class Dog {
     String name;
     int age;

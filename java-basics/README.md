@@ -43,7 +43,7 @@ What I learned:
 - Classes and objects
 - Attributes and methods
 - Using `this`
-- Creating simple classes such as `Student`, `Book`, and `Dog`
+- Creating simple classes such as `day1To3.Student`, `day1To3.Book`, and `day1To3.Dog`
 
 What I practiced:
 - Writing class definitions
