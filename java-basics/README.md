@@ -35,7 +35,7 @@ I implemented a simple number guessing game using `while` and `if`, which helped
 
 Overall, today was about making programs more interactive and dynamic.
 
-## Day 3 - Java Learning
+## Day 3 - Java OOP 1
 
 Today I continued learning Java and focused on object-oriented programming.
 
@@ -52,3 +52,17 @@ What I practiced:
 - Passing values into methods such as `setInfo()`
 
 I also learned that method parameters are used to receive values from outside the class, which helps update the attributes of an object more flexibly.
+
+## Day 4 - Java OOP 2
+
+Today I learned more about Java object-oriented programming.
+
+I studied:
+- constructors
+- encapsulation
+- getter and setter methods
+
+I learned that constructors can initialize objects when they are created.  
+I also learned how `private` can protect fields from direct access, and how getters and setters provide a proper way to read and modify data.
+
+Then I practiced by creating classes with private fields, constructors, and validation in setter methods.
