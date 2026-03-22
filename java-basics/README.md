@@ -66,3 +66,14 @@ I learned that constructors can initialize objects when they are created.
 I also learned how `private` can protect fields from direct access, and how getters and setters provide a proper way to read and modify data.
 
 Then I practiced by creating classes with private fields, constructors, and validation in setter methods.
+
+## Day 5 - Java OOP Practice
+
+Today I practiced Java object-oriented programming by completing three small exercises.
+
+I created:
+- a student score class with an average score method
+- a contact class with private fields and getter/setter methods
+- a library book class with borrowing and returning status changes
+
+Through these exercises, I became more familiar with constructors, encapsulation, return values, and object behavior.
