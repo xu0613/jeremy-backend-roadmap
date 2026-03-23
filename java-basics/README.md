@@ -77,3 +77,18 @@ I created:
 - a library book class with borrowing and returning status changes
 
 Through these exercises, I became more familiar with constructors, encapsulation, return values, and object behavior.
+
+## Day 6 - Java Inheritance and Polymorphism
+
+Today I learned the core ideas of inheritance and polymorphism in Java.
+
+I studied:
+- `extends`
+- method overriding
+- `super`
+- multi-level inheritance
+- access modifiers in inheritance (`private`, `protected`, `public`)
+- polymorphism with parent references
+
+I practiced by creating `Vehicle`, `Car`, and `Bike` classes.  
+Through this exercise, I understood how subclasses inherit from a parent class, how overridden methods work, and how different objects can show different behaviors through polymorphism.
