@@ -92,3 +92,23 @@ I studied:
 
 I practiced by creating `Vehicle`, `Car`, and `Bike` classes.  
 Through this exercise, I understood how subclasses inherit from a parent class, how overridden methods work, and how different objects can show different behaviors through polymorphism.
+
+## Day 7 - Abstract Classes, Interfaces, and Practice
+
+Today I learned the basics of abstract classes and interfaces in Java.
+
+I studied:
+- abstract classes
+- abstract methods
+- interfaces
+- `implements`
+- when to use inheritance and when to use interfaces
+
+I learned that an abstract class can provide common fields and methods, while also forcing subclasses to implement specific behaviors.  
+I also learned that an interface is used to define a common ability or standard, such as payment or login.
+
+Then I practiced by designing:
+- a student and teacher class based on inheritance
+- a payment simulation based on interfaces
+
+Through these exercises, I became more familiar with abstraction, polymorphism, and Java object-oriented design.
