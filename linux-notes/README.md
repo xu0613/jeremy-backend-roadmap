@@ -48,3 +48,13 @@ I also practiced using wildcards:
 - `?` to match exactly one character
 
 Through these exercises, I became more familiar with how to work with multiple files efficiently in the terminal.
+
+### Linux Permissions and Process Basics
+
+Today I learned the basics of Linux permissions and processes.
+
+I used `ls -l` to view file permissions and understood the meaning of `r`, `w`, and `x` for files and directories. I also learned how to use `chmod` to change permissions, especially to make a shell script executable.
+
+In addition, I learned the basic concept of a process as a running program. I practiced using `ps` to view processes and `top` to monitor running processes in real time.
+
+Through these exercises, I gained a better understanding of how Linux controls file access and how running programs are managed in the system.
