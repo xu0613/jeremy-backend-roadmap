@@ -135,3 +135,27 @@ Today I learned the basics of Java collections.
 - Created simple `ArrayList` examples
 - Created a `HashMap` to store student scores
 - Practiced traversal of both collections
+
+## Day 9 - Java Exception Handling
+
+Today I learned the basics of Java exception handling.
+
+I studied:
+- `try-catch` for catching and handling exceptions
+- `throws` for declaring that a method may cause an exception
+- `throw` for manually throwing an exception
+- `finally` for code that runs at the end whether an exception happens or not
+
+I also learned some common exceptions, such as:
+- `ArithmeticException`
+- `ArrayIndexOutOfBoundsException`
+- `NullPointerException`
+- `NumberFormatException`
+- `IllegalArgumentException`
+
+In practice, I wrote simple programs to:
+- catch runtime errors
+- use `finally` to finish cleanup work
+- manually throw an exception when input is out of range
+
+This helped me understand how to make Java programs safer and more robust when errors happen.
