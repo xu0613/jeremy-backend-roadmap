@@ -112,3 +112,26 @@ Then I practiced by designing:
 - a payment simulation based on interfaces
 
 Through these exercises, I became more familiar with abstraction, polymorphism, and Java object-oriented design.
+
+## Day 8 - Java Collections Basics
+
+Today I learned the basics of Java collections.
+
+### What I learned
+- `ArrayList` for storing ordered elements
+- `HashMap` for storing key-value pairs
+- Common methods like `add()`, `get()`, `set()`, `remove()`, `size()`, and `put()`
+- Different ways to traverse collections:
+    - `for` loop
+    - enhanced `for` loop
+    - `keySet()` for `HashMap`
+
+### My understanding
+- `ArrayList` is like a flexible array
+- `HashMap` is useful when I want to find a value by a key
+- Collections are more practical than arrays in many real programs
+
+### Practice
+- Created simple `ArrayList` examples
+- Created a `HashMap` to store student scores
+- Practiced traversal of both collections
