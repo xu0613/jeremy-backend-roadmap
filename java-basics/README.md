@@ -159,3 +159,29 @@ In practice, I wrote simple programs to:
 - manually throw an exception when input is out of range
 
 This helped me understand how to make Java programs safer and more robust when errors happen.
+
+## Day 10 - Java Basic IO
+
+Today I learned the basics of Java IO.
+
+I studied:
+- what IO means in Java
+- basic file reading and writing
+- the difference between relative paths and absolute paths
+- how to write text into a file with `FileWriter`
+- how to read text from a file with `FileReader`
+- how to read a text file line by line with `BufferedReader`
+
+In practice, I:
+- created a text file in my project
+- wrote several lines of text into the file
+- read the file content back in Java
+- learned that `FileReader` reads characters one by one
+- learned that `BufferedReader` can read text line by line more naturally
+
+I also understood:
+- if only a file name is given, the file is usually created in the current working directory
+- file operations often need `try-catch` because they may cause `IOException`
+- files should be closed after reading or writing
+
+This lesson helped me understand how Java programs can interact with files instead of only printing to the console.
