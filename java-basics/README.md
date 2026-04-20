@@ -185,3 +185,33 @@ I also understood:
 - files should be closed after reading or writing
 
 This lesson helped me understand how Java programs can interact with files instead of only printing to the console.
+
+## Day 11 - Java String Operations
+
+Today I learned some common operations of `String` in Java.
+
+I studied:
+- how to get the length of a string with `length()`
+- how to compare two strings with `equals()`
+- why `equals()` should be used instead of `==` when comparing string content
+- how to get part of a string with `substring()`
+- how to check whether a string contains some text with `contains()`
+- how to split a string into a string array with `split()`
+
+In practice, I:
+- created several `String` variables
+- printed the length of a string
+- compared two strings
+- used `substring()` to extract part of a sentence
+- used `contains()` to check keywords in a sentence
+- used `split()` to divide a string into several parts
+- used a loop to print each part after splitting a string
+
+I also understood:
+- string indexes start from `0`
+- spaces are also counted as characters
+- `substring(start, end)` includes `start`, but does not include `end`
+- `split()` returns a `String[]`
+- some separators in `split()` may need special handling because `split()` uses regular expressions
+
+This lesson helped me understand how Java programs can process text, such as names, sentences, emails, dates, and user input.
